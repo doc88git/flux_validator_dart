@@ -1,0 +1,11 @@
+name: flux-validator-dart
+version: 1.0.0
+authors:
+- Lucas Yarid <lucas.boccuzi@doc88.com.br>
+- Giovanni Spolidorio <giovanni.spolidorio@doc88.com.br>
+description: >
+  A package to validate strings and input data for dart.
+homepage: https://github.com/doc88git/flux-validator-dart
+
+dev_dependencies:
+  test: ^1.0.0
