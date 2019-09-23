@@ -5,7 +5,7 @@ part './email.dart';
 class Validator{
 
   static bool email(value){
-    return email(value);
+    return validatorEmail(value);
   }
   
 }
