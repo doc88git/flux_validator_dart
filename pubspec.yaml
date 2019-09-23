@@ -7,6 +7,9 @@ description: >
   A package to validate strings and input data for dart.
 homepage: https://github.com/doc88git/flux_validator_dart
 
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
