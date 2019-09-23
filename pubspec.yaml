@@ -1,10 +1,10 @@
 name: flux_validator_dart
-version: 1.0.2
+version: 1.0.3
 authors:
 - Lucas Yarid <lucas.boccuzi@doc88.com.br>
 - Giovanni Spolidorio <giovanni.spolidorio@doc88.com.br>
 description: >
-  A package to validate strings and input data for dart.
+  A package to validate strings and input data for dart with a variety of validators such as cpf, cnpj, car plate, email, phone number and others.
 homepage: https://github.com/doc88git/flux_validator_dart
 
 environment:
