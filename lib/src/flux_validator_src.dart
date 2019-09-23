@@ -16,44 +16,56 @@ part './phone.dart';
 part './renavam.dart';
 part './required.dart';
 
-class Validator{
-  static bool email(value){
+class Validator {
+  static bool email(value) {
     return validatorEmail(value);
   }
-  static bool carPlate(value){
+
+  static bool carPlate(value) {
     return validatorCarPlate(value);
   }
-  static bool number(value){
+
+  static bool number(value) {
     return validatorNumber(value);
   }
-  static bool letter(value){
+
+  static bool letter(value) {
     return validatorLetter(value);
   }
-  static bool cep(value){
+
+  static bool cep(value) {
     return validatorCep(value);
   }
-  static bool cnh(value){
+
+  static bool cnh(value) {
     return validatorCnh(value);
   }
-  static bool cnpj(value){
+
+  static bool cnpj(value) {
     return validatorCnpj(value);
   }
-  static bool cpf(value){
+
+  static bool cpf(value) {
     return validatorCpf(value);
   }
-  static bool cpfCnpf(value){
+
+  static bool cpfCnpf(value) {
     return validatorCpfCnpf(value);
   }
-  static bool date(value){
+
+  static bool date(value) {
     return validatorDate(value);
   }
-  static bool phone(value){
+
+  static bool phone(value) {
     return validatorPhone(value);
   }
-  static bool renavam(value){
+
+  static bool renavam(value) {
     return validatorRenavam(value);
   }
-  static bool required(value){
+
+  static bool required(value) {
     return validatorRequired(value);
   }
 }
