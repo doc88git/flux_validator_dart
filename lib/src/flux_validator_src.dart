@@ -10,7 +10,7 @@ part './cep.dart';
 part './cnh.dart';
 part './cnpj.dart';
 part './cpf.dart';
-part './cpfCnpf.dart';
+part './cpfCnpj.dart';
 part './date.dart';
 part './phone.dart';
 part './renavam.dart';
@@ -41,8 +41,8 @@ class Validator{
   static bool cpf(value){
     return validatorCpf(value);
   }
-  static bool cpfCnpf(value){
-    return validatorCpfCnpf(value);
+  static bool cpfCnpj(value){
+    return validatorCpfCnpj(value);
   }
   static bool date(value){
     return validatorDate(value);
